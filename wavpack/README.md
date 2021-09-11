@@ -1,7 +1,7 @@
-C FFI binding of [WavPack](https://www.wavpack.com/)
+API binding of [WavPack](https://www.wavpack.com/) >= "5.1.0"
 
 # Requirement
-* WavPack
+* WavPack >= 5.1.0
 * Clang
 
 On Debian or Ubuntu, you can install by

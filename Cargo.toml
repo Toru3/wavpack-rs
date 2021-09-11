@@ -1,2 +1,2 @@
 [workspace]
-members = ["wavpack-sys"]
+members = ["wavpack-sys", "wavpack"]

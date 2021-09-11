@@ -1,7 +1,7 @@
 [package]
 name = "wavpack-sys"
 version = "0.1.0"
-edition = "2018"
+edition = "2021"
 authors = ["Toru3 <ryuutet@gmail.com>"]
 description = "C FFI binding of [WavPack](https://www.wavpack.com/)"
 license = "BSD-3-Clause"
