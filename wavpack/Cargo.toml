@@ -19,4 +19,3 @@ path = "../wavpack-sys"
 
 [dev-dependencies]
 anyhow = "1.0.43"
-cue = { git = "https://github.com/lomereiter/libcue.rs" }
