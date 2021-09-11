@@ -14,8 +14,7 @@ categories = ["api-bindings", "multimedia::audio", "multimedia::encoding"]
 [dependencies]
 libc = "0.2.101"
 thiserror = "1.0.29"
-[dependencies.wavpack-sys]
-path = "../wavpack-sys"
+wavpack-sys = "0.1.0"
 
 [dev-dependencies]
 anyhow = "1.0.43"
