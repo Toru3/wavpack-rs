@@ -5,10 +5,11 @@ image: "rust:latest"
 
 .run_test: &run_test
   script:
-    - rustup --version && rustup component add rustfmt
-    - rustc --version && cargo --version
+    - rustup component add rustfmt clippy
+    - rustup --version && rustc --version && cargo --version
     - cargo fmt --all -- --check
-    - cargo test --all --verbose
+    - cargo clippy --workspace --all-targets --all-features --verbose -- -D warnings
+    - cargo test --workspace --verbose
 
 # Use cargo to test the project
 test:stable:
